@@ -1,0 +1,16 @@
+/* Body */
+body {
+    font-size: 16px;
+    margin: 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    margin-bottom: 0.75rem;
+}
+
+input, select, textarea {
+    font-family: 'Montserrat', sans-serif;
+}
