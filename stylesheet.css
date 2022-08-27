@@ -16,36 +16,32 @@ input, select, textarea {
 }
 
 /* navbar */
-nav {
+.navbar {
     position: sticky;
     top: 0px;
     background-color: #191919;
     color: white;
     text-align: end;
-    display: flow-root;
+    display: flex;
+    justify-content: space-between;
     padding: 10px 16%;
 }
 
-nav ul {
-    display: inline-flex;
+.ulist {
+    display: flex;
     flex-wrap: wrap;
+    align-content: center;
     margin: 0;
 }
 
-nav ul li {
+.ulist li {
     list-style: none;
-    float: right;
-    padding-top: 12px;
     padding-inline: 5px;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-nav ul a {
+.ulist a {
     text-decoration: none;
     color: white;
-}
-
-.logo1 {
-    float: left;
 }
