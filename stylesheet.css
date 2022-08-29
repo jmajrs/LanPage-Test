@@ -31,12 +31,14 @@ input, select, textarea {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    justify-content: space-around;
     margin: 0;
+    padding: 0;
+    width: 175px;
 }
 
 .ulist li {
     list-style: none;
-    padding-inline: 5px;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
