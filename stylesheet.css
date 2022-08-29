@@ -47,3 +47,60 @@ input, select, textarea {
     text-decoration: none;
     color: white;
 }
+
+/* main */
+
+main {
+    margin: 0 0;
+}
+
+/* Introduction */
+
+.introduction {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    height: 1072px;
+    display: flex;
+}
+
+.int-overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(19, 15, 64,0.65);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.int-overlay h1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.int-overlay p, .int-button {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.int-button {
+    padding: 10px;
+    background-color: #191919;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.75s;
+}
+
+.int-button:hover {
+    background-color: rgba(158, 158, 158, 0.75);
+    color: black;
+    border: 1px solid black;
+}
+
+.prod {
+    max-width: 625px;
+    padding-right: 2.25rem;
+}
