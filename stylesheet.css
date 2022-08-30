@@ -104,3 +104,39 @@ main {
     max-width: 625px;
     padding-right: 5.25rem;
 }
+
+/* Subscribe */
+
+.subscribe {
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+}
+
+.send-sub {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.send-sub input {
+    width: 410px;
+    height: 45px;
+    font-size: 20px;
+}
+
+.send-sub button {
+    width: 410px;
+    font-size: 20px;
+    background-color: #4b7bec;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.send-sub button:hover {
+    opacity: 0.65;
+}
