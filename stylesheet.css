@@ -175,3 +175,24 @@ main {
     background-color: #4b7bec;
     color: white;
 }
+
+/* About us */
+
+.about-us {
+    display: grid;
+    text-align: center;
+    background-color: rgba(87, 87, 87, 0.05);
+}
+
+.about-us h2 {
+    font: normal 30px 'times new roman';
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.about-us p {
+    font: normal 18px 'times new roman';
+    padding-inline: 18rem;
+    margin-top: 0;
+    margin-bottom: 2.25rem;
+}
