@@ -140,3 +140,38 @@ main {
 .send-sub button:hover {
     opacity: 0.65;
 }
+
+/* Features */
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.feature-card {
+    text-align: center;
+    width: 250px;
+    border: 1px solid #4b7bec;
+    padding: 2%;
+    border-radius: 5px;
+    margin-inline: 1rem;
+}
+
+.features h2 {
+    font: normal 28px arial;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+.feature-card p {
+    margin: 0;
+    padding: 0;
+}
+
+.feature-card:nth-child(even) {
+    background-color: #4b7bec;
+    color: white;
+}
