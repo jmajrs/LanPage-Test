@@ -147,23 +147,25 @@
                 <p>
                     Contactanos a Kuronobogyu@blackclover.com 
                 </p>
-                <form action="sendform.html" method="POST">
-                    <p>
-                        <label for="name">Name</label>
-                        <input type="text" name="name" required autocomplete="off">
-                    </p>
-    
-                    <p>
-                        <label for="email">Email</label>
-                        <input type="email" name="email" required>
-                    </p>
-                    <p>
-                        <label for="textarea">Escribe un mensaje</label>
-                        <textarea id="textarea" name="textarea" rows="10"></textarea>
-                    </p>
-                    <button type="submit" formtarget="_blank">Enviar mensaje</button>
-                </form>
-                <img>
+                <div class="msg-form">
+                    <form class="sendform" action="sendform.html" method="POST">
+                        <p>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" required autocomplete="off">
+                        </p>
+        
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" required>
+                        </p>
+                        <p>
+                            <label for="textarea">Escribe un mensaje</label>
+                            <textarea id="textarea" name="textarea" rows="10"></textarea>
+                        </p>
+                        <button type="submit" formtarget="_blank">Enviar mensaje</button>
+                    </form>
+                    <img class="logolg" src="img/logolg.jpg">
+                </div>
             </section>
         </main>    
     </body>
