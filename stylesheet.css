@@ -251,3 +251,52 @@ main {
     border-radius: 50%;
     padding-top: 0.5rem;
 }
+
+/* contact */
+
+.contact {
+    width: 1250px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+.msg-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.field {
+    margin-bottom: 1.5rem;
+}
+
+.field input {
+    width: 850px;
+    height: 25px;
+}
+
+.field textarea {
+    width: 850px;
+    resize: none;
+}
+
+.label-standard {
+    display: block;
+    margin-bottom: 0.5rem
+}
+
+.logolg {
+    width: 275px;
+    height: 400px;
+    padding-right: 4.5rem;
+}
+
+/* footer */
+
+footer {
+    background-color: #4b7bec;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
