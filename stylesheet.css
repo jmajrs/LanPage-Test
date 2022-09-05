@@ -46,6 +46,11 @@ input, select, textarea {
 .ulist a {
     text-decoration: none;
     color: white;
+    transition: 0.5s;
+}
+
+.ulist a:hover {
+    opacity: 0.5;
 }
 
 /* main */
