@@ -46,6 +46,11 @@ input, select, textarea {
 .ulist a {
     text-decoration: none;
     color: white;
+    transition: 0.5s;
+}
+
+.ulist a:hover{
+    opacity: 0.25;
 }
 
 /* main */
@@ -196,6 +201,53 @@ main {
     padding-inline: 18rem;
     margin-top: 0;
     margin-bottom: 2.25rem;
+}
+
+/* Questions */
+
+.questions {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.container-questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more{/* hide this one */
+    position: absolute;
+    right: 100vw;
+}
+
+.displayBtn, .non_visible_text {
+    font-size: 1.25rem;
+}
+
+.displayBtn{
+    background-color: rgba(75, 123, 236, 0.25);
+    color: #4b7bec;
+    cursor: pointer;
+    width: 1200px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #4b7bec;
+}
+
+.non_visible_text {
+    display: none;
+    width: 1200px;
+    margin-block: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid #4b7bec;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.more:checked~.non_visible_text {
+    display: block;/* show hidden tag */
 }
 
 /* Team */
