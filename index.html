@@ -8,12 +8,14 @@
     </head>
     <body>
         <nav class="navbar">
-            <a class="logo1" href=""><img src="img/logo.png"></a>
-            <ul class="ulist">
-                <li><a href="#about-us">About</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="bar-container">
+                <a class="logo1" href=""><img src="img/logo.png"></a>
+                <ul class="ulist">
+                    <li><a href="#about-us">About</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
         <main>
             <section class="introduction">
@@ -34,11 +36,13 @@
             </section>
     
             <section class="subscribe">
-                <form class="send-sub" action="sendfotm.html" method="POST">
-                    <input type="text" name="name" placeholder="Ingresa tu nombre" autocomplete="off" required>
-                    <input type="email" name="email" placeholder="Ingresa tu email" required>
-                    <button type="submit" formtarget="_blank">Subscribete</button>
-                </form>
+                <div class="sub-container">
+                    <form class="send-sub" action="sendfotm.html" method="POST">
+                        <input class="info-sub" type="text" name="name" placeholder="Ingresa tu nombre" autocomplete="off" required>
+                        <input class="info-sub" type="email" name="email" placeholder="Ingresa tu email" required>
+                        <button class="btn-sub" type="submit" formtarget="_blank">Subscribete</button>
+                    </form>
+                </div>
             </section>
     
             <section class="features" id="features">
