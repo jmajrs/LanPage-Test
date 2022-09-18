@@ -193,6 +193,11 @@ main {
     color: white;
 }
 
+.features, .questions {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
 /* About us */
 
 .about-us {
