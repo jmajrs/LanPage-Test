@@ -8,6 +8,7 @@ body {
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
+    margin-top: 0;
     margin-bottom: 0.75rem;
 }
 
@@ -204,19 +205,21 @@ main {
     display: grid;
     text-align: center;
     background-color: rgba(87, 87, 87, 0.05);
+    padding-block: 70px;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .about-us h2 {
-    font: normal 30px 'times new roman';
-    margin-bottom: 0.5rem;
-    margin-top: 0;
+    font-size: 30px;
 }
 
 .about-us p {
-    font: normal 18px 'times new roman';
-    padding-inline: 18rem;
-    margin-top: 0;
-    margin-bottom: 2.25rem;
+    font-size: 22px;
+    margin-block: 0;
 }
 
 /* Questions */
