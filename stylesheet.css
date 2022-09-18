@@ -226,7 +226,11 @@ main {
 
 .questions {
     text-align: center;
-    padding-bottom: 1.5rem;
+    padding-block: 3.5rem;
+}
+
+.questions h2 {
+    font-size: 32px;
 }
 
 .container-questions {
