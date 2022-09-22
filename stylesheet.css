@@ -315,16 +315,16 @@ main {
 }
 
 .member h3 {
-    font: normal 32px 'times new roman';
+    font-size: 32px;
     margin: 0;
 }
 
 .member p {
-    font: normal 22px 'times new roman';
+    font-size: 22px;
 }
 
 .member aside {
-    font: normal 18px 'times new roman';
+    font-size: 18px;
 }
 
 .mem-image {
