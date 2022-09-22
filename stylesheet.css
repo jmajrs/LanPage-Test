@@ -337,13 +337,26 @@ main {
 /* contact */
 
 .contact {
-    width: 1250px;
+    max-width: 1250px;
     margin: 0 auto;
-    margin-bottom: 1.5rem;
+    padding-block: 1.5rem;
+}
+
+.contact h2 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
+.contact > p {
+    font-size: 20px;
+    margin-top: 0;
 }
 
 .msg-form {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -370,7 +383,7 @@ main {
 .logolg {
     width: 275px;
     height: 400px;
-    padding-right: 4.5rem;
+    padding-inline: 2rem;
 }
 
 .button {
