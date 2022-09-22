@@ -239,6 +239,10 @@ main {
     align-items: center;
 }
 
+.question {
+    width: 80%;
+}
+
 .more{/* hide this one */
     position: absolute;
     right: 100vw;
@@ -252,7 +256,6 @@ main {
     background-color: rgba(75, 123, 236, 0.25);
     color: #4b7bec;
     cursor: pointer;
-    width: 1200px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -261,7 +264,6 @@ main {
 
 .non_visible_text {
     display: none;
-    width: 1200px;
     margin-block: 0;
     padding: 1rem;
     box-sizing: border-box;
